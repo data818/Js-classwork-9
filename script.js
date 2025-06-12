@@ -14,7 +14,7 @@ const resizeText = document.getElementById("resizeText");
 let isLarge = false;
 
 sizeBtn.addEventListener("click", function () {
-  resizeText.style.fontSize = isLarge ? "16px" : "24px";
+  resizeText.style.fontSize = isLarge ? "18px" : "30px";
   sizeBtn.textContent = isLarge ? "Enlarge Text" : "Reset Text";
   isLarge = !isLarge;
 });
